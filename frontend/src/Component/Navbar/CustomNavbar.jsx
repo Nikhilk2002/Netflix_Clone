@@ -12,7 +12,7 @@ function CustomNavbar() {
         <BootstrapNavbar.Brand className='text-danger curved-text fs-1 fw-bolder p-3'>NETFLIX</BootstrapNavbar.Brand>
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
         <BootstrapNavbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto d-flex align-items-center">
+          <Nav className="ms-auto d-flex align-items-center m-4">
             <Language />
             <Button className='bg-danger ms-2'>Sign in</Button>
           </Nav>
